@@ -1,0 +1,183 @@
+*{
+    text-decoration:none ;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+    box-sizing: content-box;
+    background-color: #FAFAFA
+   
+    
+}
+
+
+.todaLaPagina{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+    gap: 0px 0px;
+    grid-template-areas:
+    "fotoMoviles parteDerechaCompleta"
+    "footer footer";
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.fotoMoviles{
+    grid-area:fotoMoviles;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    align-items: flex-end;
+  
+}
+
+.parteDerechaCompleta{
+    grid-area: parteDerechaCompleta;
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: column;
+  
+    
+
+}
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin-top: 50px;
+    color:#8E8E8E;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 350px;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+
+.imagenInstagram{
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px;
+    
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+input{
+    display: flex;
+    justify-content:flex-start;
+    width: 240px;
+    height: 30px;
+    border-radius:3px;
+    padding: 3px;
+    margin-top: 8px;
+    border-color: #8e8e8e3b;
+    
+}
+ .boton{
+    height: 20px;
+    width: 240px;
+    border-radius:3px;
+    color: #ffffff;
+    background-color:#0094f65b;
+    padding: 5px;
+    margin-top: 20px;
+ 
+    border-style: none;
+    
+  
+   
+  } 
+.separacion{
+    display: flex;
+    justify-content: center;
+}
+.iniciarFacebook{
+    padding: 10px;
+    font-weight: bold;
+    color:#385185;
+    display: flex;
+    flex-direction: row;
+}
+.minifc{
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+p{
+   
+    margin-bottom: 15px;
+}
+.Registrate{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px
+    
+    
+    
+}
+.Descarga{
+    margin-top:50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 120px;
+
+}
+.apple{
+   width: 125px;
+   height: 50px;
+   margin-left:60px ;
+}
+.android{
+    width: 125px;
+    height: 50px;
+}
+.final1{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 600px ;
+    margin-right: 600px;
+    
+}
+
+.final2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+span{
+    color:#0095F6; 
+    text-decoration: none;
+}
+.olvidaste{
+    color:#385185;
+    font-size: 9px;
+}
+@media screen and (max-width: 250px) {}
+
